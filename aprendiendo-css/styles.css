@@ -1,0 +1,38 @@
+* {
+	font-family: 'Times New Roman', Times, serif;
+}
+body {
+	background: rgb(236, 229, 229);
+}
+h1 {
+	background: red;
+	color: white;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+footer a {
+	font-size: 18px;
+	color: green;
+}
+p.destacado {
+	color: red;
+}
+
+p.destacado span {
+	color: green;
+}
+
+.parrafo{
+	border: 1px solid black;
+}
+
+#descripcion {
+	border: 5px solid blue;
+	padding: 15px;
+}
+
+#titulo{
+	background: blue;
+	border: 2px dashed;
+}
