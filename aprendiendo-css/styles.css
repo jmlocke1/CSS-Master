@@ -22,17 +22,77 @@ p.destacado {
 p.destacado span {
 	color: green;
 }
-
+a{
+	font-size: 18px;
+	color: green;
+	text-decoration: none;
+}
 .parrafo{
-	border: 1px solid black;
+	font-style: italic;
+	/*text-decoration: underline;*/
+	font-weight: bold;
+	padding: 10px;
 }
 
 #descripcion {
 	border: 5px solid blue;
 	padding: 15px;
 }
+#descripcion h2{
+	border: 2px solid black;
 
+}
 #titulo{
-	background: blue;
+	background: rgb(61, 61, 131);
 	border: 2px dashed;
+}
+
+.parrafo1{
+	background-color: green;
+	color: white;
+}
+
+.parrafo3{
+	background-color: orange;
+	color: black;
+}
+/* Selector de atributo */
+#usuario form{
+	border: 5px solid blue;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 20px;
+}
+#usuario form * {
+	display: block;
+}
+
+input[type="text"]{
+	margin-bottom: 15px;
+	padding: 5px;
+	width: 200px;
+}
+input[type="submit"]{
+	background: green;
+	color: white;
+	padding: 15px;
+	font-size: 15px;
+	text-transform: uppercase;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+/* Selectores Hijo */
+#menu > li > a{
+	font-size: 18px;
+	color: red;
+	text-decoration: none;
+}
+
+/* Prioridad */
+#saludo h1{
+	background: brown !important;
+}
+h1{
+	background: purple !important;
 }

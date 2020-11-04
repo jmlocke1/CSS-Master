@@ -15,18 +15,37 @@
 </head>
 <body>
 	<h1 id="titulo">Máster en CSS con Víctor Robles Web</h1>
-	<ul>
+	<ul id="menu">
 		<li><a href="#">Inicio</a></li>
-		<li><a href="#">Temario</a></li>
+		<li>
+			<a href="#">Temario</a>
+			<ul>
+				<li><a href="#">HTML</a></li>
+				<li><a href="#">CSS</a></li>
+				<li><a href="#">LESS</a></li>
+			</ul>
+		</li>
 		<li><a href="#">Reseñas</a></li>
 		<li><a href="#">Contacto</a></li>
 	</ul>
 
 	<div id="descripcion">
 		<h2>Descripción del curso</h2>
-		<p class="parrafo">Lorem ipsum <span>dolor</span> sit amet consectetur adipisicing elit. Facilis deserunt voluptas officia neque ad consequatur suscipit eos corrupti quo, quibusdam veniam. Cumque doloribus excepturi earum fugit atque eum minima inventore!</p>
+		<p class="parrafo parrafo1">Lorem ipsum <span>dolor</span> sit amet consectetur adipisicing elit. Facilis deserunt voluptas officia neque ad consequatur suscipit eos corrupti quo, quibusdam veniam. Cumque doloribus excepturi earum fugit atque eum minima inventore!</p>
 		<p class="destacado">Lorem ipsum <span>dolor</span>, sit amet consectetur adipisicing elit. <span><script>document.write(`Esto es una prueba del ${arraytest['pru2']}`)</script></span> Laborum doloremque distinctio dicta culpa, illo molestias voluptates iure, veniam atque vel, officia repudiandae nesciunt eligendi ullam sequi. Corporis incidunt temporibus consectetur.</p>
-		<p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet minima quia sunt magnam facere, ipsa nam cumque inventore, illo rem, ad expedita suscipit voluptate quam quo doloremque pariatur est molestias!</p>
+		<p class="parrafo parrafo3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet minima quia sunt magnam facere, ipsa nam cumque inventore, illo rem, ad expedita suscipit voluptate quam quo doloremque pariatur est molestias!</p>
+	</div>
+	<div id="usuario">
+		<form action="">
+			<label for="nombre">Nombre</label>
+			<input type="text" name="nombre">
+			<label for="apellidos">Apellidos</label>
+			<input type="text" name="apellidos">
+			<input type="submit" value="Enviar">
+		</form>
+	</div>
+	<div id="saludo">
+		<h1>Hola, soy José Miguel</h1>
 	</div>
 	<P>Types of individual languages</P>
 	<hr>
