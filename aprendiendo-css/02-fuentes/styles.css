@@ -18,15 +18,21 @@ h3{
 
 	/* Colores */
 	/* Colores del sistema */
-	color: #b3af41;
+	color: mediumpurple;
 	/* Colores hexadecimales */
-
+	color: #b3af41;
 	/* Colores RGB */
+	color: rgb(255, 225, 107);
 	/* Colores RGBA */
+	color: rgba(255, 225, 107, 1);
 }
 
 p{
 	font-family: sans-serif;
 	font-size: 18px;
 	font-weight: bold;
+}
+
+.nameColor{
+	background-color: mediumpurple;
 }

@@ -1,0 +1,35 @@
+body{
+	background-color: #ccc;
+	background-image: url("images/paisaje-cultura-sostenibilidad.jpg");
+	background-repeat: repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: left bottom;
+	color: rgb(247, 243, 243);
+}
+
+#caja{
+	border: 5px solid black;
+	padding: 10px;
+	background-color: rgb(111, 114, 245);
+	color: white;
+	font-family:'Open Sans';
+	text-align: center;
+	text-transform:initial;
+	text-decoration: line-through underline;
+	vertical-align: top;
+	/*word-spacing: 10px;
+	letter-spacing: 5px;*/
+}
+
+h2{
+	color: red;
+	background: white;
+	background-image: url("images/patron2.jpg");
+	border: 2px solid rgb(177, 135, 135);
+}
+p{
+	text-align: justify;
+	text-indent: -15px;
+	padding-left: 2em;
+}
