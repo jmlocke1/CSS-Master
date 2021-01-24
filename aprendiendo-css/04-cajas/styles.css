@@ -36,5 +36,5 @@ body{
 }
 .clearfix{
 	float: none;
-	clear: right;
+	clear: both;
 }
