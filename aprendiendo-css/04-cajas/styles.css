@@ -9,6 +9,10 @@
 body{
 	padding: 40px;
 }
+#cajas{
+	max-width: 990px;
+	border: 1px solid black;
+}
 .caja{
 	display: block;
 	width: 250px;
