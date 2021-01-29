@@ -85,6 +85,7 @@ Ejercicio completo con HTML y CSS
     border-bottom: 1px solid #ccc;
     padding: 10px;
     color: #444;
+    text-shadow: -10px 10px 5px black;
 }
 #contenido .caja{
     width: 40%;
