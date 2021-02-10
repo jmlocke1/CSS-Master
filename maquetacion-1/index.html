@@ -51,58 +51,77 @@
     <!-- Inicio del contenido central -->
     <div id="content">
         <!-- Inicio de la barra lateral-->
-        <aside id="aside">
-            <div class="widget" id="login">
-                <h3>Entrar a la web</h3>
-                <form action="">
-                    <label for="">Usuario:</label>
-                    <input type="text" name="" id="">
+        <aside>
+            <div id="aside">
+                <div class="widget" id="login">
+                    <h3>El Entrar a la web</h3>
+                    <form action="">
+                        <label for="">Usuario:</label>
+                        <input type="text" name="" id="">
 
-                    <label for="">Contraseña:</label>
-                    <input type="password" name="" id="">
+                        <label for="">Contraseña:</label>
+                        <input type="password" name="" id="">
 
-                    <input type="submit" value="Entrar">
-                </form>
-                <a href="#">Zona de alumnos</a>
-                <a href="#">Zona del profesor</a>
-                <a href="#">Acceso a calificaciones</a>
+                        <input type="submit" value="Entrar">
+                    </form>
+                    <a href="#">Zona de alumnos</a>
+                    <a href="#">Zona del profesor</a>
+                    <a href="#">Acceso a calificaciones</a>
+                </div>
+                <div class="widget" id="login">
+                    <h3 class="blue">Aula virtual 1</h3>
+                    <form action="">
+                        <label for="">Nombre de usuario:</label>
+                        <input type="text" name="" id="">
+
+                        <label for="">Contraseña:</label>
+                        <input type="password" name="" id="">
+
+                        <input type="submit" value="Entrar">
+                    </form>
+                </div>
+                <div class="widget" id="login">
+                    <h3 class="red">Aula virtual 2</h3>
+                    <form action="">
+                        <label for="">Usuario:</label>
+                        <input type="text" name="" id="">
+
+                        <label for="">Contraseña:</label>
+                        <input type="password" name="" id="">
+
+                        <input type="submit" value="Entrar">
+                    </form>
+                </div>
+                <div class="widget" id="login">
+                    <h3>Enlaces de interés</h3>
+                    <ul>
+                        <li><a
+                                href="https://www.udemy.com/course/master-en-css-responsive-sass-flexbox-grid-y-boostrap-4/learn/">Máster
+                                en CSS: Responsive, SASS, Flexbox, Grid y Bootstrap</a></li>
+                        <li><a
+                                href="https://www.udemy.com/course/master-en-php-sql-poo-mvc-laravel-symfony-4-wordpress/learn/">Master
+                                en PHP, POO, MVC, Laravel, Sympfony, Wordpress</a></li>
+                        <li><a href="https://www.udemy.com/course-dashboard-redirect/?course_id=1712652">Master en webs
+                                Full Stack: Angular, Node Laravel</a></li>
+                        <li><a
+                                href="https://www.udemy.com/course/desarrollo-sistemas-web-php-poo-mysql-jquery-ajax-bootstrap/learn/">Desarrollo
+                                de sistemas web en PHP 7, POO, MySQL, jQuery y Ajax</a></li>
+                        <li><a href="https://www.udemy.com/course-dashboard-redirect/?course_id=1337000">Master en
+                                JavaScript: Aprender JS, jQuery, Angular, NodeJS</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="widget" id="login">
-                <h3 class="blue">Aula virtual 1</h3>
-                <form action="">
-                    <label for="">Nombre de usuario:</label>
-                    <input type="text" name="" id="">
-
-                    <label for="">Contraseña:</label>
-                    <input type="password" name="" id="">
-
-                    <input type="submit" value="Entrar">
-                </form>
-            </div>
-            <div class="widget" id="login">
-                <h3 class="red">Aula virtual 2</h3>
-                <form action="">
-                    <label for="">Usuario:</label>
-                    <input type="text" name="" id="">
-
-                    <label for="">Contraseña:</label>
-                    <input type="password" name="" id="">
-
-                    <input type="submit" value="Entrar">
-                </form>
-            </div>
-            <div class="widget" id="login">
-                <h3>Enlaces de interés</h3>
-                <ul>
-                    <li><a href="https://www.udemy.com/course/master-en-css-responsive-sass-flexbox-grid-y-boostrap-4/learn/">Máster en CSS: Responsive, SASS, Flexbox, Grid y Bootstrap</a></li>
-                    <li><a href="https://www.udemy.com/course/master-en-php-sql-poo-mvc-laravel-symfony-4-wordpress/learn/">Master en PHP, POO, MVC, Laravel, Sympfony, Wordpress</a></li>
-                    <li><a href="https://www.udemy.com/course-dashboard-redirect/?course_id=1712652">Master en webs Full Stack: Angular, Node Laravel</a></li>
-                    <li><a href="https://www.udemy.com/course/desarrollo-sistemas-web-php-poo-mysql-jquery-ajax-bootstrap/learn/">Desarrollo de sistemas web en PHP 7, POO, MySQL, jQuery y Ajax</a></li>
-                    <li><a href="https://www.udemy.com/course-dashboard-redirect/?course_id=1337000">Master en JavaScript: Aprender JS, jQuery, Angular, NodeJS</a></li>
-                </ul>
+            <div id="frase">
+                <p>Frase del día:</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, explicabo! In eum veritatis dolorem
+                    unde fugiat! Quibusdam illo ullam sint provident blanditiis, explicabo ut voluptatum dolor
+                    consequuntur dolorum voluptate rerum laudantium pariatur in. Ullam aperiam eius quaerat magnam
+                    voluptates commodi blanditiis temporibus, dolorem dolore laudantium! Repudiandae cum veritatis
+                    dolores accusamus?</p>
+                <a href="#">Leer más frases</a>
             </div>
         </aside>
-        
+
         <!-- Fin de la barra lateral -->
 
         <!-- Inicio de las secciones -->
@@ -115,22 +134,41 @@
                 <h2 class="titulo">Noticias de front-end</h2>
                 <article class="article">
                     <p><a href="#">Título de la entrada</a>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto, perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab nihil modi, earum minima provident?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto,
+                        perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil
+                        quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae
+                        repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab
+                        nihil modi, earum minima provident?
                     </p>
                     <span class="date">[20-12-2020. Víctor Robles web]</span>
-                </article>                <article class="article">
+                </article>
+                <article class="article">
                     <p><a href="#">Título de la entrada</a>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto, perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab nihil modi, earum minima provident?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto,
+                        perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil
+                        quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae
+                        repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab
+                        nihil modi, earum minima provident?
                     </p>
                     <span class="date">[20-12-2020. Víctor Robles web]</span>
-                </article>                <article class="article">
+                </article>
+                <article class="article">
                     <p><a href="#">Título de la entrada</a>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto, perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab nihil modi, earum minima provident?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto,
+                        perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil
+                        quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae
+                        repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab
+                        nihil modi, earum minima provident?
                     </p>
                     <span class="date">[20-12-2020. Víctor Robles web]</span>
-                </article>                <article class="article">
+                </article>
+                <article class="article">
                     <p><a href="#">Título de la entrada</a>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto, perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab nihil modi, earum minima provident?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto,
+                        perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil
+                        quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae
+                        repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab
+                        nihil modi, earum minima provident?
                     </p>
                     <span class="date">[20-12-2020. Víctor Robles web]</span>
                 </article>
@@ -143,22 +181,41 @@
                 <h2 class="titulo">Noticias de back-end</h2>
                 <article class="article">
                     <p><a href="#">Título de la entrada</a>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto, perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab nihil modi, earum minima provident?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto,
+                        perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil
+                        quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae
+                        repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab
+                        nihil modi, earum minima provident?
                     </p>
                     <span class="date">[20-12-2020. Víctor Robles web]</span>
-                </article>                <article class="article">
+                </article>
+                <article class="article">
                     <p><a href="#">Título de la entrada</a>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto, perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab nihil modi, earum minima provident?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto,
+                        perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil
+                        quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae
+                        repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab
+                        nihil modi, earum minima provident?
                     </p>
                     <span class="date">[20-12-2020. Víctor Robles web]</span>
-                </article>                <article class="article">
+                </article>
+                <article class="article">
                     <p><a href="#">Título de la entrada</a>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto, perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab nihil modi, earum minima provident?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto,
+                        perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil
+                        quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae
+                        repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab
+                        nihil modi, earum minima provident?
                     </p>
                     <span class="date">[20-12-2020. Víctor Robles web]</span>
-                </article>                <article class="article">
+                </article>
+                <article class="article">
                     <p><a href="#">Título de la entrada</a>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto, perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab nihil modi, earum minima provident?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto,
+                        perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil
+                        quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae
+                        repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab
+                        nihil modi, earum minima provident?
                     </p>
                     <span class="date">[20-12-2020. Víctor Robles web]</span>
                 </article>
@@ -171,35 +228,50 @@
                 <h2 class="titulo">Noticias del instructor</h2>
                 <article class="article">
                     <p><a href="#">Título de la entrada</a>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto, perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab nihil modi, earum minima provident?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto,
+                        perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil
+                        quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae
+                        repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab
+                        nihil modi, earum minima provident?
                     </p>
                     <span class="date">[20-12-2020. Víctor Robles web]</span>
-                </article>                <article class="article">
+                </article>
+                <article class="article">
                     <p><a href="#">Título de la entrada</a>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto, perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab nihil modi, earum minima provident?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto,
+                        perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil
+                        quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae
+                        repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab
+                        nihil modi, earum minima provident?
                     </p>
                     <span class="date">[20-12-2020. Víctor Robles web]</span>
-                </article>                <article class="article">
+                </article>
+                <article class="article">
                     <p><a href="#">Título de la entrada</a>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto, perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab nihil modi, earum minima provident?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto,
+                        perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil
+                        quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae
+                        repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab
+                        nihil modi, earum minima provident?
                     </p>
                     <span class="date">[20-12-2020. Víctor Robles web]</span>
-                </article>                <article class="article">
+                </article>
+                <article class="article">
                     <p><a href="#">Título de la entrada</a>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto, perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab nihil modi, earum minima provident?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aliquid placeat iusto,
+                        perspiciatis fugiat ducimus consequatur similique neque dolores non voluptatum officiis nihil
+                        quia explicabo assumenda atque, eaque voluptate molestiae ratione voluptas. Ipsam quae
+                        repudiandae aperiam voluptatum perferendis tenetur beatae temporibus accusantium culpa dolor ab
+                        nihil modi, earum minima provident?
                     </p>
                     <span class="date">[20-12-2020. Víctor Robles web]</span>
                 </article>
             </section>
         </div>
         <!-- Fin de las secciones -->
-        <aside id="frase">
-            <p>Frase del día:</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, explicabo! In eum veritatis dolorem unde fugiat! Quibusdam illo ullam sint provident blanditiis, explicabo ut voluptatum dolor consequuntur dolorum voluptate rerum laudantium pariatur in. Ullam aperiam eius quaerat magnam voluptates commodi blanditiis temporibus, dolorem dolore laudantium! Repudiandae cum veritatis dolores accusamus?</p>
-            <a href="#">Leer más frases</a>
-        </aside>
+
     </div>
-    
+
 
     <!-- Fin del contenido central-->
 </body>

@@ -216,11 +216,13 @@ button:active{
 }
 
 /* BARRA LATERAL */
-#aside, #frase{
-    
+aside{
     width: 200px;
     float: left;
     margin: 30px;
+}
+
+#aside, #frase{
     background-color: white;
     border: 1px solid #ccc;
     box-shadow: 0px 2px 2px #ccc;
@@ -228,15 +230,15 @@ button:active{
 }
 
 #frase{
-    clear: both;
-    width: 180px;
+    width: 178px;
     padding: 10px;
     font-size: 14px;
+    margin-top: 50px;
 }
 
 #aside .widget{
     display: block;
-    width: 180px;
+    width: 178px;
     margin: 5px auto;
     padding: 8px 10px;
     font-size: 14px;
