@@ -49,6 +49,10 @@ a:hover{
     color: #0c73f2 !important;
 }
 
+.orange{
+    color: #d69d2a;
+}
+
 /* FORMULARIOS */
 input[type="text"],
 input[type="email"],
@@ -317,7 +321,8 @@ aside{
     font-weight: normal;
     letter-spacing: 1px;
     text-align: center;
-    padding-top: 20px;
+    /*margin-top: -20px;
+    padding-top: 20px;*/
     padding-bottom: 10px;
     border-bottom: 1px solid #ccc;
 }
@@ -342,4 +347,15 @@ aside{
 #sections .date{
     color: gray;
     font-size: 14px;
+}
+
+#sections .stickerOne,
+#sections .stickerTwo{
+    position: absolute;
+    margin-top: -38px;
+    z-index: 0;
+}
+
+#sections .stickerTwo{
+    margin-left: 860px;
 }

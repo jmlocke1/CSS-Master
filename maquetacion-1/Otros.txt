@@ -1,0 +1,36 @@
+Una pequeña anotación para la maqueta de las pegatinas o stickers, en vez de incluirlos en el código HTML, podemos agregarlos directamente con CSS, ya que son elementos de diseño y no de contenido, solo hay que hacer lo siguiente:
+
+
+Al "h2" le podemos dar los siguientes estilos:
+
+     .Sections-title{
+    	font-size: 25px;
+    	margin-bottom: 5px;
+    	text-align: center;
+    	border-bottom: 1px solid #ccc;
+    	position: relative;
+    	font-family: Fjalla;
+    	font-weight: normal;
+    	letter-spacing: 1px;
+    	padding: 20px 0 10px;
+    }
+
+
+Acá lo importante es la propiedad "position:relative", ahora nos valemos de los pseudo-elementos de CSS, "::before" y "::after", que nos permiten insertar contenido antes y después del elemento:
+
+    .Sections-title::before{
+    	content: url(img/scotch.png);
+    	position: absolute;
+    	top: -38px;
+    	left: 15px;
+    }
+     
+    .Sections-title::after{
+    	content: url(img/scotch.png);
+    	position: absolute;
+    	top: -38px;
+    	right: 15px;
+    }
+
+
+Espero me hayan entendido y les sirva, saludos.
