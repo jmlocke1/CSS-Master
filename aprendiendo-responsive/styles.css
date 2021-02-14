@@ -1,8 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
 #container{
-    width: 1000px;
+    width: 70%;
     background: red;
     margin: 0px auto;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 header{
@@ -16,4 +28,46 @@ header{
 
 aside{
     width: 25%;
+    float: left;
+    min-height: 700px;
+    background: #ccc;
+    text-align: center;
+    line-height: 700px;
+}
+
+#articles{
+    width: 75%;
+    min-height: 700px;
+    float: left;
+    background-color: lemonchiffon;
+}
+
+#articles article{
+    width: 25%;
+    height: 150px;
+    background: green;
+    color: white;
+    line-height: 150px;
+    text-align: center;
+    border: 2px solid white;
+    float: left;
+    margin: 15px;
+}
+
+/* RESPONSIVE */
+
+/* Desde la anchura 0px hasta la anchura 888px de pantalla */
+@media (max-width: 880px){
+    /* Se ejecutarán estos estilos */
+    #articles article{
+        width: 40%;
+        background: red;
+    }
+}
+
+@media (max-width:648px){
+    #articles article{
+        width: 90%;
+        background: blue;
+    }
 }
