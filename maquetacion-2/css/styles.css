@@ -83,3 +83,7 @@ body{
     transition: all 300ms;
 }
 
+#menu{
+    float: right;
+    margin-right: 15%;
+}
