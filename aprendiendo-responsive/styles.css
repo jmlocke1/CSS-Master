@@ -66,8 +66,30 @@ aside{
 }
 
 @media (max-width:648px){
+    #container{
+        overflow: hidden;
+    }
+
+    #articles{
+        width: 100%;
+    }
+
+    aside{
+        float: none;
+        min-height: auto;
+        line-height: 20px;
+        width: 91%;
+        padding: 19px;
+    }
+
     #articles article{
         width: 90%;
         background: blue;
+    }
+}
+
+@media(max-width: 554px){
+    body{
+        background: lightsalmon;
     }
 }
