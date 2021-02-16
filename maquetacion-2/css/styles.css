@@ -40,7 +40,7 @@ body{
     margin: 0px auto;
 }
 
-.gear{
+.gear, .icon{
     font-family: "WebSymbolsRegular";
 }
 
