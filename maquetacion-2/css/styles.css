@@ -85,5 +85,26 @@ body{
 
 #menu{
     float: right;
-    margin-right: 15%;
+    height: 70px;
+    background: transparent;
+}
+
+#menu ul li{
+    font-size: 24px;
+    display: inline-block;
+    align-items: center;
+    margin: 0px 20px;
+    line-height: 70px;
+}
+
+#menu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: all 200ms;
+}
+
+#menu ul li a:hover{
+    color: #37bcf9;
+    transform: scale(1.2, 1.2);
 }
