@@ -1,5 +1,5 @@
 "# CSS-Master" 
-<h1>Master en CSS, Responsive, SASS, Flexbos, Grid y Bootstrap 4. Víctor Robles</h1>
+<h1>Master en CSS, Responsive, SASS, Flexbox, Grid y Bootstrap 4. Víctor Robles</h1>
 
 Código del curso de Udemy de Víctor Robles
 
