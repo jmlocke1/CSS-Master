@@ -298,7 +298,7 @@ aside h3{
     height: 35px;
     margin-top: 20px;
     color: white;
-    background: linear-gradient(to bottom, #3eb8e5 0%, #2ca0ca 100%);
+    background: linear-gradient(to bottom, #beccd1 0%, #2ca0ca 100%);
     border: 1px solid #156785;
     border-radius: 0px;
     cursor: pointer;
@@ -309,6 +309,8 @@ aside h3{
 }
 
 #login input[type="submit"]:hover,
-#login input[type="button"],
-#login input[type="reset"],
-#login button
+#login input[type="button"]:hover,
+#login input[type="reset"]:hover,
+#login button:hover{
+    box-shadow: 0px 0px 6px gray;
+}
