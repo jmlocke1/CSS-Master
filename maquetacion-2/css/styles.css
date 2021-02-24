@@ -422,3 +422,19 @@ body{
     margin-bottom: 10px;
     font-size: 15px;
 }
+
+#blog{
+    height: 100px;
+    margin-top: 60px;
+    line-height: 100px;
+    text-align: center;
+}
+
+#blog a{
+    display: block;
+    font-family: "BevasNeue";
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #00538c;
+    text-decoration: none;
+}
