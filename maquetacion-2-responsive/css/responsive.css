@@ -4,8 +4,36 @@
         margin: 0 auto;
     }
 
+    #banner h1{
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+        margin: 33px auto;
+    }
+
     .card{
         width: 17%;
         margin: 1.45%;
+    }
+
+    .card p{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #articles{
+        width: 65%;
+    }
+
+    #footer .wrap > div{
+        width: 24%;
+    }
+
+    #footer #browsers img {
+        width: 10%;
+    }
+
+    #footer h5{
+        font-size: 30px;
     }
 }

@@ -286,8 +286,8 @@ body{
 }
 
 .card .description{
-    /* Se borra el texto de la descripción para que solo se vea cuando se pase el ratón por encima */
-    display: none;
+    /* Se borra el texto de la descripción para que solo se vea cuando se pase el ratón por encima 
+    display: none;*/
     font-family: "TrebuchetMS";
     text-align: center;
     color: #0370b9;
@@ -512,7 +512,9 @@ body{
 
 #articles h2{
     display: block;
-    width: 100%;
+    width: 98%;
+    padding-left: 10px;
+    padding-right: 10px;
     height: 75px;
     line-height: 75px;
     text-align: center;
@@ -528,7 +530,7 @@ body{
 }
 
 #articles article{
-    width: 100%;
+    width: 98%;
     height: auto;
     border: 1px solid #ccc;
     margin: 40px auto;
