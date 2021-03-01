@@ -296,7 +296,7 @@ body{
 }
 
 .card:hover .description{
-    display: block;
+    /*display: block;*/
     color: white;
     animation: showDescription 400ms linear;
 }
