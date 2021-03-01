@@ -58,6 +58,11 @@
         width: 59%;
     }
 
+    #footer .wrap > div {
+        width: 26%;
+        margin: 20px;
+    }
+
     #footer h5{
         font-size: 22px;
     }
