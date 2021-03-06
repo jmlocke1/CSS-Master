@@ -86,3 +86,21 @@ p {
     border-color: green;
 }
 
+// Operadores
+.clearfix {
+    clear: both;
+}
+
+h1{
+    font-size: 20px + 5px - 1px;
+}
+
+.cajas {
+    width: 900px;
+    margin: 0px auto;
+}
+
+.caja {
+    float: left;
+    width:  100px / 900px * 100%;
+}
