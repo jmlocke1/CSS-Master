@@ -61,19 +61,36 @@ p {
 }
 
 // Herencia
+/*
 %alert-normal {
+    
+} */
+
+.alert {
     border: 1px solid gray;
     background: #eee;
     color: gray;
     padding: 10px;
     width: 80%;
     margin: 20px auto;
-}
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px gray;
 
-.alert {
-    @extend %alert-normal;
-}
+    &-danger{
+        @extend .alert;
+        color: rgb(235, 114, 114);
+        border-color: red;
+        box-shadow: 4px 4px 2px red;
+    }
 
+    &-success {
+        @extend .alert;
+        color: green;
+        border-color: green;
+        box-shadow: 4px 4px 2px green;
+    }
+}
+/*
 .alert-danger {
     @extend %alert-normal;
     color: red;
@@ -84,7 +101,7 @@ p {
     @extend %alert-normal;
     color: green;
     border-color: green;
-}
+} */
 
 // Operadores
 .clearfix {
@@ -95,6 +112,9 @@ h1{
     font-size: 20px + 5px - 1px;
 }
 
+$caja: 200px;
+$wrap: 900px;
+
 .cajas {
     width: 900px;
     margin: 0px auto;
@@ -102,5 +122,35 @@ h1{
 
 .caja {
     float: left;
-    width:  100px / 900px * 100%;
+    width:  $caja / $wrap * 100%;
+    margin: 10px;
 }
+
+// Condicionales en SASS
+// if
+//$color-fondo: green;
+h1 {
+    @if $color-fondo == #ccc {
+        color: black;
+    } @else if $color-fondo == black {
+        background-color: $color-fondo;
+        color: lightsalmon;
+    } @else {
+        background-color: $color-fondo;
+        color: pink;
+    }
+}
+
+
+// for
+$contador: 1;
+@for $contador from 1 through 12 {
+    .listado ul li:nth-child(#{$contador}){
+        font-size: #{$contador + 10}px;
+    }
+}
+
+
+// each
+
+// while
