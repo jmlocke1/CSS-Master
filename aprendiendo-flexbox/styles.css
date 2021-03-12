@@ -23,19 +23,22 @@ body {
     background: gray;
 }
 
-
+.orange {
+    order: 4;
+    background: orange;
+}
 .red {
+    order: 3;
     background: red;
 }
 
 .green {
+    order: 1;
     background: green;
 }
 
 .blue {
+    order: 2;
     background: blue;
 }
 
-.orange {
-    background: orange;
-}
