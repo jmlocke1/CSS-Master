@@ -8,7 +8,9 @@ body {
     /*flex-direction: row;
     flex-wrap: wrap;*/
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    height: 600px;
+    align-items: flex-start;
     border: 3px solid black;
     padding: 5px;
 }
@@ -30,17 +32,35 @@ body {
 
 
 .red {
+    align-self: flex-start;
     background: red;
 }
 
 .green {
+    margin-top: 10%;
     background: green;
 }
 
 .blue {
+    align-self: center;
     background: blue;
 }
 
 .orange {
+    align-self: flex-end;
     background: orange;
 }
+
+.box {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box div {
+    border: 1px solid blue;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+  }
