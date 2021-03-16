@@ -5,11 +5,14 @@ body {
 
 .layout {
 	width: 1200px;
+	height: 400px;
 	margin: 0px auto;
 	/* Definir el grid layout */
 	display: grid;
-	/*grid-template-columns: calc(50% - 30px/4) calc(25% - 30px/4) calc(15% - 30px/4) calc(10% - 30px/4);*/
-	grid-template-columns: repeat(4, calc(25% - 30px/4));
+	/*grid-template-columns: calc(50% - 30px/4) calc(25% - 30px/4) calc(15% - 30px/4) calc(10% - 30px/4);
+	grid-template-columns: repeat(2, calc(25% - 30px/4)) calc(10% - 20px/4) calc(40% - 30px/4);*/
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 2fr) 0.25fr repeat(2, 1fr);
 	/* Espacio entre elementos grid */
 	gap: 10px;
 	padding: 10px;
@@ -26,6 +29,8 @@ body {
 }
 
 .layout .red {
+	grid-column-start: 1;
+	grid-column-end: 3;
 	background-color: red;
 }
 
@@ -39,4 +44,12 @@ body {
 
 .layout .pink {
 	background-color: pink;
+}
+
+.layout .orange {
+	background-color: orange;
+}
+
+.layout .aqua {
+	background-color: aquamarine;
 }
