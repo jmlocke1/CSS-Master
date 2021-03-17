@@ -4,15 +4,15 @@ body {
 }
 
 .layout {
-	width: 1200px;
-	height: 400px;
+	width: 80%;
+	min-height: 70vh;
 	margin: 0px auto;
 	/* Definir el grid layout */
 	display: grid;
 	/*grid-template-columns: calc(50% - 30px/4) calc(25% - 30px/4) calc(15% - 30px/4) calc(10% - 30px/4);
 	grid-template-columns: repeat(2, calc(25% - 30px/4)) calc(10% - 20px/4) calc(40% - 30px/4);*/
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(2, 2fr) 0.25fr repeat(2, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr) 3fr repeat(2, 1fr);
 	/* Espacio entre elementos grid */
 	gap: 10px;
 	padding: 10px;
@@ -29,27 +29,32 @@ body {
 }
 
 .layout .red {
-	grid-column-start: 1;
-	grid-column-end: 3;
+	grid-column: 1 / 4;
 	background-color: red;
 }
 
 .layout .green {
+	grid-row-start: 2;
+	grid-row-end: 7;
 	background-color: green;
 }
 
 .layout .blue {
+	grid-column: 2 / 4;
 	background-color: blue;
 }
 
 .layout .pink {
+	grid-row: 3 / 6;
 	background-color: pink;
 }
 
 .layout .orange {
+	grid-row: 3 / 6;
 	background-color: orange;
 }
 
 .layout .aqua {
+	grid-column: 2 / 4;
 	background-color: aquamarine;
 }
