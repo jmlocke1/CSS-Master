@@ -13,6 +13,8 @@ body {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: 150px 70px 1fr 70px;
+	grid-template-areas: 
+	"cabecera cabecera cabecera cabecera pie";
 	width: 75%;
 	height: 1000px;
 	margin: 0px auto;
@@ -20,16 +22,17 @@ body {
 }
 
 #cabecera-area {
+	grid-area: cabecera;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	grid-column: 1 / 6;
+	
 	background-color: blue;
 	color: white;
 }
 
 #menu-area {
-	grid-column: 1 / 6;
+	
 	background-color: lightblue;
 	color: black;
 }
@@ -48,7 +51,7 @@ body {
 }
 
 #contenido-area {
-	grid-column: 1 / 5;
+	
 	grid-row: 3 / 6;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -63,14 +66,14 @@ body {
 }
 
 #lateral-area {
-	grid-column: 5 / 6;
+	
 	grid-row: 3 / 6;
 	background-color: orange;
 	color: white;
 }
 
 #pie-pagina-area {
-	grid-column: 1 / 6;
+	grid-area: pie;
 	background-color: rgb(150, 69, 69);
 	color: white;
 }
