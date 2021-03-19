@@ -12,9 +12,12 @@ body {
 #website-areas {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: 150px 70px 1fr 70px;
+	grid-template-rows: 150px 70px 1fr 20px;
 	grid-template-areas: 
-	"cabecera cabecera cabecera cabecera pie";
+	"cabecera cabecera cabecera cabecera cabecera"
+	"menu menu menu menu menu"
+	"lateral contenido contenido contenido contenido"
+	"pie pie pie pie pie ";
 	width: 75%;
 	height: 1000px;
 	margin: 0px auto;
@@ -32,7 +35,7 @@ body {
 }
 
 #menu-area {
-	
+	grid-area: menu;
 	background-color: lightblue;
 	color: black;
 }
@@ -51,8 +54,7 @@ body {
 }
 
 #contenido-area {
-	
-	grid-row: 3 / 6;
+	grid-area: contenido;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 25px;
@@ -66,8 +68,7 @@ body {
 }
 
 #lateral-area {
-	
-	grid-row: 3 / 6;
+	grid-area: lateral;
 	background-color: orange;
 	color: white;
 }
