@@ -76,17 +76,18 @@
 #content {
 	display: grid;
 	grid-template-columns: 20% 1fr;
-	align-items: center;
-	column-gap: 25px;
+	align-items: start;
+	column-gap: 7px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
 #projects {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, 250px);
+	grid-template-columns: repeat(auto-fill, 255px);
 	gap: 20px;
 	justify-content: center;
+	align-items: start;
 }
 
 .project {
@@ -163,17 +164,18 @@
 }
 
 #footer {
-	
+	display: grid;
+	grid-template-columns: 2fr 1fr;
 	height: 120px;
 	align-items: center;
+	justify-content: start;
 	border-top: 1px solid rgba(225, 225, 226, 0.8);
 }
 
 #footer .logo {
 	opacity: 0.5;
 	
-	order: 2;
-	text-align: right;
+	text-align: left;
 	margin-right: 20px;
 }
 
@@ -183,3 +185,60 @@
 	color: #444;
 }
 
+@media (max-width: 784px) {
+	#header {
+		display: grid;
+		grid-template-columns: 100%;
+		align-items: center;
+		justify-content: center;
+		height: 140px;
+		padding-bottom: 20px;
+	}
+	#header h1 {
+		text-align: center;
+	}
+
+	#content {
+		display: grid;
+		grid-template-columns: 1fr;
+		align-items: start;
+		justify-content: space-between;
+		column-gap: auto;
+	}
+
+	#content #aside {
+		margin-right: 0px;
+	}
+
+	#aside ul {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 10px;
+	}
+	
+	#projects {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 20px;
+		justify-content: center;
+		align-items: start;
+	}
+
+	.project {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	#footer {
+		display: grid;
+		grid-template-columns: 1fr;
+		height: 120px;
+		align-items: center;
+		justify-content: start;
+		text-align: center;
+	}
+
+	#footer .logo {
+		text-align: center;
+	}
+}
