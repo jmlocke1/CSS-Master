@@ -14,9 +14,15 @@
 
 .item {
     height: 150px;
+    margin: 10px;
 }
 
 footer{
     height: 50px;
     line-height: 50px;
+}
+
+#products .items .pru .bg-warning{
+    background-color: chartreuse;
+    border: 5px solid #ccc;
 }
