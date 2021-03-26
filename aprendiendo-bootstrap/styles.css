@@ -26,3 +26,11 @@ footer{
     background-color: chartreuse;
     border: 5px solid #ccc;
 }
+
+.lateral {
+    height: 250px;
+}
+
+.lateral > div {
+    height: 50px;
+}
