@@ -17,6 +17,10 @@
     margin: 10px;
 }
 
+.pruoffset .item {
+    margin: 0px;
+}
+
 footer{
     height: 50px;
     line-height: 50px;
@@ -32,5 +36,5 @@ footer{
 }
 
 .lateral > div {
-    height: 50px;
+    height: calc(250px / 3);
 }
