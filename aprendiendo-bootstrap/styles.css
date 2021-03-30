@@ -38,3 +38,15 @@ footer{
 .lateral > div {
     height: calc(250px / 3);
 }
+
+.container.pru{
+    height: 100px;
+}
+
+.pru .caja {
+    border-color: chartreuse;
+}
+
+.pru .ligthblue {
+    background-color: rgb(128, 103, 103) !important;
+}
