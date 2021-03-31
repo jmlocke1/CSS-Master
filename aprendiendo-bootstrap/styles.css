@@ -42,6 +42,18 @@ footer{
     height: 50px;
 }
 
+.pru {
+    height: 200px;
+}
+
+.caja {
+    border-radius: 5px;
+}
+
+.nodisplay {
+    display: none;
+}
+
 @media (max-width: 768px) {
     #menu {
         height: auto;
