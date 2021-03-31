@@ -12,6 +12,10 @@
     line-height: 50px;
 }
 
+#menu ul li {
+    min-width: 50px;
+}
+
 .item {
     height: 150px;
     margin: 10px;
@@ -22,9 +26,8 @@ footer{
     line-height: 50px;
 }
 
-#products .items .pru .bg-warning{
-    background-color: chartreuse;
-    border: 5px solid #ccc;
+.nomargin .item{
+    margin: 0px;
 }
 
 .lateral {
@@ -33,4 +36,14 @@ footer{
 
 .lateral > div {
     height: 50px;
+}
+
+@media (max-width: 768px) {
+    #menu {
+        height: auto;
+    }
+
+    #menu ul {
+        width: 100%;
+    }
 }
