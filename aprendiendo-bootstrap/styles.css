@@ -54,6 +54,16 @@ footer{
     display: none;
 }
 
+.firstmay {
+    text-transform: lowercase;
+}
+
+.firstmay::first-letter {
+    text-transform: uppercase;
+}
+
+
+
 @media (max-width: 768px) {
     #menu {
         height: auto;
