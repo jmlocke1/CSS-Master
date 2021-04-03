@@ -78,3 +78,12 @@ footer{
         width: 100%;
     }
 }
+
+#slider .carousel-caption {
+    background: rgba(182, 174, 168, 0.7);
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+#slider .carousel-caption h5 {
+}
