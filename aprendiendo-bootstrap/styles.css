@@ -80,9 +80,9 @@ footer{
 }
 
 #slider .carousel-caption {
-    background: rgba(182, 174, 168, 0.7);
+    background: rgba(17, 16, 16, 0.5);
     border-radius: 15px;
-    color: whitesmoke;
+    color: yellow;
 }
 
 #slider .carousel-caption h5 {
